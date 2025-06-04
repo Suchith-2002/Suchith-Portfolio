@@ -1,0 +1,60 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.projects {
+    padding: 100px 80px;
+    background: #fff;
+}
+
+.projects .title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.project {
+    background-color: #fefefe;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-left: 5px solid crimson;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: crimson;
+}
+
+.project p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    background: crimson;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.project a:hover {
+    background: #a10000;
+}
